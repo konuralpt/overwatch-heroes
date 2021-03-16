@@ -9,7 +9,11 @@ const DefaultLayout = () => {
     return (
         <div className="container mx-auto h-full">
             <HeroPreview />
-            <HeroesRow heroes={tank} heroType='tank' />
+            <div className='absolute'>
+                <HeroesRow heroes={tank} heroType='tank' />
+                <HeroesRow heroes={damage} heroType='damage' />
+                <HeroesRow heroes={support} heroType='support' />
+            </div>
         </div>
     );
 }
