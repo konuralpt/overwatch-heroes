@@ -1,0 +1,1 @@
+export const getSelectedHero = store => store.selectedHero;

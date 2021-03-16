@@ -1,12 +1,12 @@
-export const getHeroesByClasses = (heroesArray = []) => {
-    const heroesByClass = {};
+export const getHeroesByRoles = (heroesArray = []) => {
+    const heroesByRole = {};
     
     for (let i = 0; i < heroesArray.length; i++) {
         const hero = heroesArray[i];
-        if (!heroesByClass[hero.class]) {
-            heroesByClass[hero.class] = [];
+        if (!heroesByRole[hero.role]) {
+            heroesByRole[hero.role] = [];
         }
-        heroesByClass[hero.class].push(hero);
+        heroesByRole[hero.role].push(hero);
     }
-    return heroesByClass;
+    return heroesByRole;
 };

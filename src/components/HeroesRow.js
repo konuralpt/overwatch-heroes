@@ -5,12 +5,12 @@ import RoleIcon from './RoleIcon';
 
 const _ = require('lodash');
 
-const HeroesRow = ({ heroes, heroType }) => {
+const HeroesRow = ({ heroes, role }) => {
     const prepareHeroCards = (heroes) => heroes.map((hero) => <HeroCard key={_.uniqueId()} hero={hero} />);
 
     return (
-        <div className="h-auto mr-5 inline-block" style={{ borderBottom: '1px solid black' }}>
-            <RoleIcon />
+        <div className="h-auto mr-5 inline-block">
+            <RoleIcon role={role} />
             <div className= "h-20" style={{ }}>
                 {
                    prepareHeroCards(heroes)
@@ -22,12 +22,12 @@ const HeroesRow = ({ heroes, heroType }) => {
 
 HeroesRow.propTypes = {
     heroes: PropTypes.array,
-    heroType: PropTypes.string,
+    role: PropTypes.string,
 };
 
 HeroesRow.defaultProps = {
     heroes: [],
-    heroType: '',
+    role: '',
 };
 
 export default HeroesRow;
