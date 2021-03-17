@@ -1,11 +1,14 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+@font-face {
+  font-family: 'FuturaBQ';
+  src: local('FuturaBQ'), url(./assets/fonts/FuturaBQ-DemiBold.otf) format('woff');
+}
 
 html {
-  /* background-image: url('./assets/images/background.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%; */
+  min-width: 1920px;
 }
 
 html::after {
@@ -13,6 +16,8 @@ html::after {
   background: url('./assets/images/background.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
+  min-width: 1920px;
+  min-height: 930px;
   opacity: 0.7;
   top: 0;
   left: 0;
@@ -29,7 +34,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: hsla(0,0%,100%,.6); */
 }
 
 code {

@@ -20,7 +20,6 @@ const HeroCard = ({ hero, selectedHero, setSelectedHero }) => {
 
   return (
     <StyledHeroCard
-      className='ml-2'
       onMouseEnter={() => {console.log('asdasd');setHovered(true)}}
       onMouseLeave={() => setHovered(false)}
       onClick={handleOnClick}

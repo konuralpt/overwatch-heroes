@@ -1,9 +1,6 @@
 import styled from 'styled-components';
 
-const HeroRowWrapper = ({ className, children }) => (
-  <div className={className}>
-    {children}
-  </div>
-);
-
-export const StyledHeroRow = styled(HeroRowWrapper)``;
+export const StyledHeroRow = styled.div`
+  display: inline-block;
+  margin-left: 30px;
+`;

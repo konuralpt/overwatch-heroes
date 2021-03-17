@@ -9,6 +9,7 @@ const HeroCardWrapper = ({ className, children, isHeroSelected, ...rest }) => (
 export const StyledHeroCard = styled(HeroCardWrapper)`
   width: 40px;
   height: 70px;
+  margin-left: 7px;
   position: relative;
   display: inline-block;
   background: rgba(0,0,0, 0.3);    

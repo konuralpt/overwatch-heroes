@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { StyledHeroRow } from './styled';
 import HeroCard from '../HeroCard';
-import RoleIcon from '../RoleIcon';
+import RoleRow from '../RoleRow';
 
 const _ = require('lodash');
 
@@ -10,8 +10,8 @@ const HeroesRow = ({ heroes, role }) => {
     const prepareHeroCards = (heroes) => heroes.map((hero) => <HeroCard key={_.uniqueId()} hero={hero} />);
 
     return (
-        <StyledHeroRow className="h-auto mr-5 inline-block">
-            <RoleIcon role={role} />
+        <StyledHeroRow>
+            <RoleRow role={role} />
             <div className="h-20">
                 {
                    prepareHeroCards(heroes)
