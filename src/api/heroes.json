@@ -1,160 +1,192 @@
 [
     {
+        "id": 1,
         "name": "D.Va",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/icon-portrait.png",
         "role": "tank"
     },
     {
+        "id": 2,
         "name": "Orisa",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/icon-portrait.png",
         "role": "tank"
     },
     {
+        "id": 3,
         "name": "Reinhardt",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/icon-portrait.png",
         "role": "tank"
     },
     {
+        "id": 4,
         "name": "Roadhog",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/icon-portrait.png",
         "role": "tank"
     },
     {
+        "id": 5,
         "name": "Sigma",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/sigma/icon-portrait.png",
         "role": "tank"
     },
     {
+        "id": 6,
         "name": "Winston",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/icon-portrait.png",
         "role": "tank"
     },
     {
+        "id": 7,
         "name": "Wrecking Ball",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/icon-portrait.png",
         "role": "tank"
     },
     {
+        "id": 8,
         "name": "Zarya",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/icon-portrait.png",
         "role": "tank"
     },
     {
+        "id": 9,
         "name": "Ashe",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/ashe/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 10,
         "name": "Bastion",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 11,
         "name": "Doomfist",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 12,
         "name": "Echo",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/echo/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 13,
         "name": "Genji",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 14,
         "name": "Hanzo",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 15,
         "name": "Junkrat",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 16,
         "name": "McCree",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 17,
         "name": "Mei",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 18,
         "name": "Pharah",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 19,
         "name": "Reaper",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 20,
         "name": "Soldier: 76",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 21,
         "name": "Sombra",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 22,
         "name": "Symmetra",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 23,
         "name": "Torbjörn",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 24,
         "name": "Tracer",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 25,
         "name": "Widowmaker",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/icon-portrait.png",
         "role": "damage"
     },
     {
+        "id": 26,
         "name": "Ana",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/icon-portrait.png",
         "role": "support"
     },
     {
+        "id": 27,
         "name": "Baptiste",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/baptiste/icon-portrait.png",
         "role": "support"
     },
     {
+        "id": 28,
         "name": "Brigitte",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/icon-portrait.png",
         "role": "support"
     },
     {
+        "id": 29,
         "name": "Lúcio",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/icon-portrait.png",
         "role": "support"
     },
     {
+        "id": 30,
         "name": "Mercy",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/icon-portrait.png",
         "role": "support"
     },
     {
+        "id": 31,
         "name": "Moira",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/icon-portrait.png",
         "role": "support"
     },
     {
+        "id": 32,
         "name": "Zenyatta",
         "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/icon-portrait.png",
         "role": "support"

@@ -1,1 +1,1 @@
-export const getSelectedHero = store => store.selectedHero;
+export const getSelectedHero = ({ hero }) => hero.selectedHero;
