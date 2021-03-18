@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import RoleIcon from './components/RoleIcon';
 import RoleLabel from './components/RoleLabel';

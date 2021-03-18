@@ -2,193 +2,193 @@
     {
         "id": 1,
         "name": "D.Va",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/icon-portrait.png",
+        "mediaSource": "dva",
         "role": "tank"
     },
     {
         "id": 2,
         "name": "Orisa",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/icon-portrait.png",
+        "mediaSource": "orisa",
         "role": "tank"
     },
     {
         "id": 3,
         "name": "Reinhardt",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/icon-portrait.png",
+        "mediaSource": "reinhardt",
         "role": "tank"
     },
     {
         "id": 4,
         "name": "Roadhog",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/icon-portrait.png",
+        "mediaSource": "roadhog",
         "role": "tank"
     },
     {
         "id": 5,
         "name": "Sigma",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/sigma/icon-portrait.png",
+        "mediaSource": "sigma",
         "role": "tank"
     },
     {
         "id": 6,
         "name": "Winston",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/icon-portrait.png",
+        "mediaSource": "winston",
         "role": "tank"
     },
     {
         "id": 7,
         "name": "Wrecking Ball",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/icon-portrait.png",
+        "mediaSource": "wrecking-ball",
         "role": "tank"
     },
     {
         "id": 8,
         "name": "Zarya",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/icon-portrait.png",
+        "mediaSource": "zarya",
         "role": "tank"
     },
     {
         "id": 9,
         "name": "Ashe",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/ashe/icon-portrait.png",
+        "mediaSource": "ashe",
         "role": "damage"
     },
     {
         "id": 10,
         "name": "Bastion",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/icon-portrait.png",
+        "mediaSource": "bastion",
         "role": "damage"
     },
     {
         "id": 11,
         "name": "Doomfist",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/icon-portrait.png",
+        "mediaSource": "doomfist",
         "role": "damage"
     },
     {
         "id": 12,
         "name": "Echo",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/echo/icon-portrait.png",
+        "mediaSource": "echo",
         "role": "damage"
     },
     {
         "id": 13,
         "name": "Genji",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/icon-portrait.png",
+        "mediaSource": "genji",
         "role": "damage"
     },
     {
         "id": 14,
         "name": "Hanzo",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/icon-portrait.png",
+        "mediaSource": "hanzo",
         "role": "damage"
     },
     {
         "id": 15,
         "name": "Junkrat",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/icon-portrait.png",
+        "mediaSource": "junkrat",
         "role": "damage"
     },
     {
         "id": 16,
         "name": "McCree",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/icon-portrait.png",
+        "mediaSource": "mccree",
         "role": "damage"
     },
     {
         "id": 17,
         "name": "Mei",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/icon-portrait.png",
+        "mediaSource": "mei",
         "role": "damage"
     },
     {
         "id": 18,
         "name": "Pharah",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/icon-portrait.png",
+        "mediaSource": "pharah",
         "role": "damage"
     },
     {
         "id": 19,
         "name": "Reaper",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/icon-portrait.png",
+        "mediaSource": "reaper",
         "role": "damage"
     },
     {
         "id": 20,
         "name": "Soldier: 76",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/icon-portrait.png",
+        "mediaSource": "soldier-76",
         "role": "damage"
     },
     {
         "id": 21,
         "name": "Sombra",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/icon-portrait.png",
+        "mediaSource": "sombra",
         "role": "damage"
     },
     {
         "id": 22,
         "name": "Symmetra",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/icon-portrait.png",
+        "mediaSource": "symmetra",
         "role": "damage"
     },
     {
         "id": 23,
         "name": "Torbjörn",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/icon-portrait.png",
+        "mediaSource": "torbjorn",
         "role": "damage"
     },
     {
         "id": 24,
         "name": "Tracer",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/icon-portrait.png",
+        "mediaSource": "tracer",
         "role": "damage"
     },
     {
         "id": 25,
         "name": "Widowmaker",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/icon-portrait.png",
+        "mediaSource": "widowmaker",
         "role": "damage"
     },
     {
         "id": 26,
         "name": "Ana",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/icon-portrait.png",
+        "mediaSource": "ana",
         "role": "support"
     },
     {
         "id": 27,
         "name": "Baptiste",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/baptiste/icon-portrait.png",
+        "mediaSource": "baptiste",
         "role": "support"
     },
     {
         "id": 28,
         "name": "Brigitte",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/icon-portrait.png",
+        "mediaSource": "brigitte",
         "role": "support"
     },
     {
         "id": 29,
         "name": "Lúcio",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/icon-portrait.png",
+        "mediaSource": "lucio",
         "role": "support"
     },
     {
         "id": 30,
         "name": "Mercy",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/icon-portrait.png",
+        "mediaSource": "mercy",
         "role": "support"
     },
     {
         "id": 31,
         "name": "Moira",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/icon-portrait.png",
+        "mediaSource": "moira",
         "role": "support"
     },
     {
         "id": 32,
         "name": "Zenyatta",
-        "avatar": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/icon-portrait.png",
+        "mediaSource": "zenyatta",
         "role": "support"
     }
 ]

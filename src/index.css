@@ -8,14 +8,11 @@
 }
 
 html {
-  min-width: 1920px;
+  /* min-width: 1920px; */
 }
 
-html::after {
+/* html::after {
   content: "";
-  background: url('./assets/images/background.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%;
   min-width: 1920px;
   min-height: 930px;
   opacity: 0.7;
@@ -25,7 +22,7 @@ html::after {
   right: 0;
   position: absolute;
   z-index: -1;
-}
+} */
 
 body {
   margin: 0;

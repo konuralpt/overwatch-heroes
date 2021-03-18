@@ -1,7 +1,12 @@
 import { SET_SELECTED_HERO } from "../actionTypes";
 
 const initialState = {
-    selectedHero: {},
+    selectedHero: {
+      "id": 1,
+      "name": "D.Va",
+      "mediaSource": "dva",
+      "role": "tank"
+    },
 };
 
 // eslint-disable-next-line import/no-anonymous-default-export

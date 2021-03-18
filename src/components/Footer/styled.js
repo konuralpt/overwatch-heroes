@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 export const StyledFooter = styled.div`
-    paddingLeft: 6em;
+    position: absolute;
+    bottom: 100px;
     text-align: center;
+    width: 100%;
 `;
 
 export const StyledContinueButton = styled.button`

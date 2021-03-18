@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { StyledRoleLabel } from './styled';
-import { HERO_ROLES } from '../../../../constants/commonConstants';
 
 const RoleLabel = ({ role }) => {
     const [roleLabel, updateRoleLabel] = useState('');
