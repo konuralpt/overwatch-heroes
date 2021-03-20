@@ -8,7 +8,7 @@ const HeroCardWrapper = ({ className, children, isHeroSelected, ...rest }) => (
 
 export const StyledHeroCard = styled(HeroCardWrapper)`
   width: 40px;
-  height: 70px;
+  height: 63px;
   margin-left: 7px;
   position: relative;
   display: inline-block;
@@ -17,7 +17,7 @@ export const StyledHeroCard = styled(HeroCardWrapper)`
   border-radius: 5px;
   transform: skewX(-10deg);
   transition: all 0.1s ease-in;
-  overflow: hidden;
+  // overflow: hidden;
   ${({ isHeroSelected }) => isHeroSelected && `
     transform: scale(1.2) skewX(-10deg);
     -webkit-box-shadow: 1px 0px 8px 8px #ffffff, 1px 0px 4px 10px #fea200;
@@ -39,6 +39,7 @@ export const StyledHeroCard = styled(HeroCardWrapper)`
 // }
 
 export const StyledImg = styled.img`
+    border-radius: 5px;
     transform: skewX(10deg);
     left: -30%;
     top: 4px;
@@ -50,6 +51,7 @@ export const StyledImg = styled.img`
 `;
 
 export const UpperShadow = styled.div`
+    border-radius: 5px;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -61,6 +63,7 @@ export const UpperShadow = styled.div`
 `;
 
 export const BottomShadow = styled.div`
+    border-radius: 5px;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -72,6 +75,7 @@ export const BottomShadow = styled.div`
 `;
 
 export const HoverShadow = styled.div`
+    border-radius: 5px;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -80,4 +84,38 @@ export const HoverShadow = styled.div`
     -webkit-box-shadow: inset 0px 0px 2px 4px rgba(255,255,255,1);
     -moz-box-shadow: inset 0px 0px 2px 4px rgba(255,255,255,1);
     box-shadow: inset 0px 0px 2px 4px rgba(255,255,255,1);
+`;
+
+export const OverflowWrapper = styled.div`
+  overflow: hidden;
+  border-radius: 5px; 
+  z-index: 100;
+`;
+
+export const AllowOverflowWrapper = styled.div`
+  position: relative;
+  border-radius: 5px; 
+`;
+
+export const DisableOverflowWrapper = styled.div`
+  position: absolute;
+  border-radius: 5px; 
+  z-index: -100;
+`;
+
+
+export const UpperFireAnimation = styled.img`
+  position: absolute;
+  transform: rotate(-55deg);
+  height: 100px;
+  top: -180px;
+  left: -35px;
+`;
+
+export const BottomFireAnimation = styled.img`
+  position: absolute;
+  transform: rotate(120deg);
+  height: 100px;
+  top: 15px;
+  left: -70px;
 `;

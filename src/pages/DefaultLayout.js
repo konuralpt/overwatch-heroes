@@ -10,7 +10,7 @@ const DefaultLayout = () => {
     return (
         <div className="container mx-auto h-full">
             <HeroVideo />
-            <div style={{ paddingLeft: '6em', position: 'absolute', bottom: '200px' }}>
+            <div style={{ paddingLeft: '6em', position: 'absolute', bottom: '200px', minWidth: '1800px' }}>
                 <HeroesRow heroes={tank} role='tank' />
                 <HeroesRow heroes={damage} role='damage' />
                 <HeroesRow heroes={support} role='support' />

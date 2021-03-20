@@ -1,17 +1,31 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { connect } from 'react-redux';
 import { setSelectedHero } from '../../redux/actions';
 import { getSelectedHero } from "../../redux/selectors";
 import { importHeroAvatar } from '../../helpers/heroes';
-import { StyledHeroCard, StyledImg, UpperShadow, BottomShadow, HoverShadow } from './styled';
+import { StyledHeroCard, StyledImg, UpperShadow, BottomShadow, HoverShadow,
+  OverflowWrapper, AllowOverflowWrapper, DisableOverflowWrapper, UpperFireAnimation, BottomFireAnimation } from './styled';
+import fireAnimation from '../../assets/images/fire.gif';
 
 const HeroCard = ({ hero, selectedHero, setSelectedHero }) => {
   const { id, name, role, mediaSource } = hero;
   const [hovered, setHovered] = useState(false);
   const [isHeroSelected, setIsHeroSelected] = useState(false);
   const [importedAvatar,setImportedAvatar] = useState('');
+  const upperImageRef = useRef();
+  const bottomImageRef = useRef();
+
+  const reloadFireAnimation = () => {
+    upperImageRef.current.src = fireAnimation;
+    bottomImageRef.current.src = fireAnimation;
+    setTimeout(() => {
+      upperImageRef.current.src = '';
+      bottomImageRef.current.src = '';
+    }, 1000);
+  };
 
   const handleOnClick = () => {
+    reloadFireAnimation();
     setSelectedHero({ hero });
   };
 
@@ -40,12 +54,20 @@ const HeroCard = ({ hero, selectedHero, setSelectedHero }) => {
       onClick={handleOnClick}
       isHeroSelected={isHeroSelected}
     >
+      <OverflowWrapper>
+        <AllowOverflowWrapper>
         <StyledImg alt={name} src={importedAvatar} />
         <UpperShadow />
         <BottomShadow />
         {
           hovered && !isHeroSelected ? <HoverShadow /> : <></>
         }
+        </AllowOverflowWrapper>
+        <DisableOverflowWrapper>
+          <UpperFireAnimation ref={upperImageRef}/>
+          <BottomFireAnimation ref={bottomImageRef}/>
+        </DisableOverflowWrapper>
+      </OverflowWrapper>
     </StyledHeroCard>
   );
 };
