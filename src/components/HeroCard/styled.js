@@ -20,8 +20,10 @@ export const StyledHeroCard = styled(HeroCardWrapper)`
   // overflow: hidden;
   ${({ isHeroSelected }) => isHeroSelected && `
     transform: scale(1.2) skewX(-10deg);
-    -webkit-box-shadow: 1px 0px 8px 8px #ffffff, 1px 0px 4px 10px #fea200;
-    box-shadow: 1px 0px 8px 8px #ffffff, 1px 0px 4px 10px #fea200;
+    -webkit-box-shadow: 0 0 3px 5px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 20px #fea200, 0 0 20px #fea200;
+    box-shadow: 0 0 3px 5px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 20px #fea200, 0 0 20px #fea200;
+    // -webkit-box-shadow: 1px 0px 8px 8px #ffffff, 1px 0px 4px 10px #fea200;
+    // box-shadow: 1px 0px 8px 8px #ffffff, 1px 0px 4px 10px #fea200;
     z-index: 999;
   `}
   &:hover {
@@ -48,6 +50,9 @@ export const StyledImg = styled.img`
     width: 66px;
     height: 59px;
     z-index: -2;
+    ${({ isHeroSelected }) => isHeroSelected && `
+      background-color: #fea200;
+    `}
 `;
 
 export const UpperShadow = styled.div`

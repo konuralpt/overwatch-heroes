@@ -56,7 +56,7 @@ const HeroCard = ({ hero, selectedHero, setSelectedHero }) => {
     >
       <OverflowWrapper>
         <AllowOverflowWrapper>
-        <StyledImg alt={name} src={importedAvatar} />
+        <StyledImg alt={name} src={importedAvatar} isHeroSelected={isHeroSelected}/>
         <UpperShadow />
         <BottomShadow />
         {
